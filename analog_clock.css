@@ -1,0 +1,82 @@
+html
+{
+    top:0px;
+    margin: 0px;
+    padding:0px;
+    background: black;
+    background-image: linear-gradient(-90deg, rgb(116, 116, 145), rgb(216, 96, 96));
+    
+}
+body{
+    align-items: center;
+}
+.clock
+{
+    margin: 50px auto;
+    height: 200px;
+    width: 200px;
+    border: white 2px solid;
+    border-radius: 100px ;
+    box-shadow:0 0 0px 4px rgba(0,0,0,0.1), 
+    inset 0 0 0 2px #efefef,
+    inset 0 0 10px black,
+     0 0 10px rgba(0,0,0,0.2);
+    position: relative;
+}
+.hand
+{   height:2px;
+    top:50%;
+    background: black;
+    position: absolute;
+    transform: rotate(90deg);
+
+}
+.sec_hand{
+    height: 2px;
+    width: 105px;
+    transform-origin:75%;
+    left:20px;
+    background:red !important;
+}
+.hr_hand{
+    width: 70px;
+    transform-origin:80%;
+    left:44px;
+}
+.min_hand{
+    width: 100px;
+    transform-origin:80%;
+    left:20px;
+}
+.face
+{
+
+}
+.t12,.t3,.t6 ,.t9
+{
+    position: absolute;
+    font-family: 'Sans-serif','Times New Roman','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    text-shadow: 2px 2px 5px rgb(255, 3, 3);
+    
+}
+.t12{
+    top:-14px;
+    left:90px;
+    
+}
+.t3{
+    top:70px;
+    left:179px;
+
+}
+.t6{
+    top:149px; 
+    left:93px;
+}
+.t9{
+    top:68px;
+    left:8px;
+}
